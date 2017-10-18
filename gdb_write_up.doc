@@ -1,0 +1,5 @@
+Long Le
+923532743
+
+I used gdb to trace down mostly about segmentation fault. It shows exactly the address and I can print out the screen the values of variables inside the scope.
+Also, using gdb to trace the constructors as well as destructors helps me to rewrite those functions of classes.

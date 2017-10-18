@@ -1,0 +1,18 @@
+Long Le
+923532743
+
+class node: is the basic unit of the program. It has the name of a specific location.
+
+class location: inherits from class node, is a stop on the route. It has 2 pointers point to the next and the previous locations. It has functions to go to the next node or the previous node and also to connect another node to its previous or next pointer.
+
+class street_car inherits from class node, represents a street car with its current location. It has functions to start and stop the street.
+
+With the inheritance of class street_car and class location from the class node, the current location of street car or the stop could be easy to access from the derived classes. Also, later in the class type which has the list of locations only, it can modify necessary change in the name of the class node.
+
+class type which could be understood as a route, has a list of location and the kind of the list depends on the data member loop. If it is the loop, the list would be a circular linked list, otherwise, it would be a doubly linked list. It has functions to add and remove locations in the route.
+
+class line inherits from class type which contains the list of street cars. It has functions to add or remove a street car and also to start or pause the line.
+
+class map contains a list of lines running. It has functions to add and remove lines on the map and also to start or pause any line.
+
+class graph has an adjacency list of nodes shows the connections among nodes.

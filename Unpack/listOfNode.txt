@@ -1,0 +1,21 @@
+10
+Portland State University
+3
+Park
+2
+OHSU
+3
+Central Library
+4
+Urban Center
+3
+Downtown
+1
+10th Ave
+2
+1sr Ave.
+4
+PDX Airport
+2
+Lloyd Center
+1

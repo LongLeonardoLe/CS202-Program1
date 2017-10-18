@@ -1,0 +1,1 @@
+tar -cf $1.tar *.cpp *h *.txt *.doc
